@@ -1,0 +1,286 @@
+.website_headbackground{
+  width: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.website_headbackground img{
+  width: 100%;
+}
+
+
+.navbar_head{
+  width: 80%;
+  position: absolute;
+  top: 10px;
+  left: 10%;
+  right: 10%;
+  z-index: 1;
+}
+
+.navbar_head .navbar .collapse .navbar-nav{
+  margin-left: 70%;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar_head .navbar .collapse .navbar-nav .nav-item a{
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar_head .navbar .collapse .navbar-nav .nav-item a:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  color:#008844;
+}
+
+.website_headbackground .title_content{
+  position: absolute;
+  top: 8em;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  height: 75%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+.website_headbackground .title_content .simple_introduce{
+  /* margin-top: 5%;
+  margin-left: 1%;
+  margin-right: 2%;
+  width: 30%;
+  background-color: blue; */
+
+  margin-top: 5%;
+  margin-left: 2.5%;
+  margin-right: 2%;
+  width: 60%;
+  height: 75%;
+  /* background-color: blue; */
+  float: left;
+}
+
+.website_headbackground  .title_content .simple_introduce p{
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.website_headbackground  .title_content .simple_introduce hr{
+  display: block;
+  width: 90%;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid #ffffff;
+
+}
+
+.website_headbackground .title_content .circle{
+  margin-top: 5%;
+  margin-left: 2.5%;
+  margin-right: 2%;
+  display: inline-block;
+ width: 350px;
+ height:350px;
+ border-radius: 50%;
+ border: 1px solid #eee;
+ padding: 5px;
+ background:#fff;
+  /* background-color: red; */
+  float: left;
+}
+
+.website_headbackground .title_content .inner{
+  background-image: url(../img/my_bgpicture.jpg);
+    background-size:cover;
+    background-position:center center;
+    height: 100%;
+    border-radius:50%;
+}
+
+@media screen and (max-width: 992px){
+
+  .navbar_head .navbar .navbar-brand img{
+    width: 60%;
+  }
+
+  .website_headbackground .title_content{
+    top: 5em;
+    height: 75%;
+  }
+
+  .website_headbackground  .title_content .simple_introduce p{
+    font-size: 80%;
+  }
+
+  .website_headbackground .title_content .circle{
+     width: 200px;
+     height:200px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .navbar_head .navbar .collapse .navbar-nav{
+    margin-left: 10%;
+  }
+
+  .navbar_head .navbar .navbar-brand img{
+    width: 60%;
+  }
+
+  .website_headbackground .title_content{
+    top: 5.5em;
+    height: 75%;
+  }
+
+  .website_headbackground  .title_content .simple_introduce p{
+    font-size: 90%;
+  }
+
+  .website_headbackground .title_content .circle{
+     width: 220px;
+     height:220px;
+  }
+}
+
+@media screen and (min-width: 1120px){
+  .navbar_head .navbar .collapse .navbar-nav{
+    margin-left: 30%;
+  }
+
+  .navbar_head .navbar .navbar-brand img{
+    width: 65%;
+  }
+
+  .website_headbackground .title_content{
+    top: 6em;
+    height: 75%;
+  }
+
+  .website_headbackground  .title_content .simple_introduce p{
+    font-size: 100%;
+  }
+
+  .website_headbackground .title_content .circle{
+     width: 240px;
+     height:240px;
+  }
+}
+
+@media screen and (min-width: 1240px){
+  .navbar_head .navbar .collapse .navbar-nav{
+    margin-left: 40%;
+  }
+
+  .navbar_head .navbar .navbar-brand img{
+    width: 70%;
+  }
+
+  .website_headbackground .title_content{
+    top: 6.5em;
+    height: 75%;
+  }
+
+  .website_headbackground  .title_content .simple_introduce p{
+    font-size: 110%;
+  }
+
+  .website_headbackground .title_content .circle{
+     width: 260px;
+     height:260px;
+  }
+}
+
+@media screen and (min-width: 1360px){
+  .navbar_head .navbar .collapse .navbar-nav{
+    margin-left: 50%;
+  }
+
+  .navbar_head .navbar .navbar-brand img{
+    width: 75%;
+  }
+
+  .website_headbackground .title_content{
+    top: 7em;
+    height: 75%;
+  }
+
+  .website_headbackground  .title_content .simple_introduce p{
+    font-size: 120%;
+  }
+
+  .website_headbackground .title_content .circle{
+     width: 280px;
+     height:280px;
+  }
+}
+
+@media screen and (min-width: 1560px){
+  .navbar_head .navbar .collapse .navbar-nav{
+    margin-left: 55%;
+  }
+
+  .navbar_head .navbar .navbar-brand img{
+    width: 80%;
+  }
+
+  .website_headbackground .title_content{
+    top: 7.5em;
+    height: 75%;
+  }
+
+  .website_headbackground  .title_content .simple_introduce p{
+    font-size: 130%;
+  }
+
+  .website_headbackground .title_content .circle{
+     width: 300px;
+     height:300px;
+  }
+}
+
+@media screen and (min-width: 1680px){
+  .navbar_head .navbar .collapse .navbar-nav{
+    margin-left: 60%;
+  }
+
+  .navbar_head .navbar .navbar-brand img{
+    width: 85%;
+  }
+
+  .website_headbackground  .title_content .simple_introduce p{
+    font-size: 140%;
+  }
+
+  .website_headbackground .title_content .circle{
+     width: 320px;
+     height:320px;
+  }
+}
+
+@media screen and (min-width: 1920px){
+  .navbar_head .navbar .collapse .navbar-nav{
+    margin-left: 70%;
+  }
+  .navbar_head .navbar .navbar-brand img{
+    width: 90%;
+  }
+
+  .website_headbackground .title_content{
+    top: 8em;
+    height: 75%;
+
+  }
+
+  .website_headbackground  .title_content .simple_introduce p{
+    font-size: 150%;
+  }
+
+  .website_headbackground .title_content .circle{
+     width: 340px;
+     height:340px;
+  }
+}
