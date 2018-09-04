@@ -1,13 +1,58 @@
+.navbar .container-fluid .navbar-header .navbar-brand span
+{
+  font-weight: bold;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.navbar .container-fluid .collapse .nav
+{
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.header{
+  display: block;
+  width: auto;
+  margin-top: 50px;
+  background:#8e8e8e;
+}
+
+.header .container{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.header img{
+  border-radius: 30%;
+}
+
+.img-hobby{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.intro_text{
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2em;
+}
+
 .website_headbackground{
   width: 100%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 4%;
 }
 
 .website_headbackground img{
   width: 100%;
 }
-
 
 .navbar_head{
   width: 80%;
@@ -16,23 +61,6 @@
   left: 10%;
   right: 10%;
   z-index: 1;
-}
-
-.navbar_head .navbar .collapse .navbar-nav{
-  margin-left: 70%;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.navbar_head .navbar .collapse .navbar-nav .nav-item a{
-  font-weight: bold;
-  color: #ffffff;
-}
-
-.navbar_head .navbar .collapse .navbar-nav .nav-item a:hover{
-  font-weight: bold;
-  text-decoration: underline;
-  color:#008844;
 }
 
 .website_headbackground .title_content{
@@ -102,6 +130,10 @@
 }
 
 @media screen and (max-width: 992px){
+  .navbar .container-fluid .navbar-header .navbar-brand span
+  {
+    font-size: 1.2em;
+  }
 
   .navbar_head .navbar .navbar-brand img{
     width: 60%;
@@ -123,9 +155,6 @@
 }
 
 @media screen and (min-width: 992px){
-  .navbar_head .navbar .collapse .navbar-nav{
-    margin-left: 10%;
-  }
 
   .navbar_head .navbar .navbar-brand img{
     width: 60%;
@@ -147,10 +176,6 @@
 }
 
 @media screen and (min-width: 1120px){
-  .navbar_head .navbar .collapse .navbar-nav{
-    margin-left: 30%;
-  }
-
   .navbar_head .navbar .navbar-brand img{
     width: 65%;
   }
@@ -171,9 +196,6 @@
 }
 
 @media screen and (min-width: 1240px){
-  .navbar_head .navbar .collapse .navbar-nav{
-    margin-left: 40%;
-  }
 
   .navbar_head .navbar .navbar-brand img{
     width: 70%;
@@ -195,9 +217,6 @@
 }
 
 @media screen and (min-width: 1360px){
-  .navbar_head .navbar .collapse .navbar-nav{
-    margin-left: 50%;
-  }
 
   .navbar_head .navbar .navbar-brand img{
     width: 75%;
@@ -219,10 +238,6 @@
 }
 
 @media screen and (min-width: 1560px){
-  .navbar_head .navbar .collapse .navbar-nav{
-    margin-left: 55%;
-  }
-
   .navbar_head .navbar .navbar-brand img{
     width: 80%;
   }
@@ -243,10 +258,6 @@
 }
 
 @media screen and (min-width: 1680px){
-  .navbar_head .navbar .collapse .navbar-nav{
-    margin-left: 60%;
-  }
-
   .navbar_head .navbar .navbar-brand img{
     width: 85%;
   }
@@ -262,9 +273,7 @@
 }
 
 @media screen and (min-width: 1920px){
-  .navbar_head .navbar .collapse .navbar-nav{
-    margin-left: 70%;
-  }
+
   .navbar_head .navbar .navbar-brand img{
     width: 90%;
   }
